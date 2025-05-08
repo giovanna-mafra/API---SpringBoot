@@ -1,0 +1,43 @@
+Michel, td bem por aí?
+10:59
+Deixa eu te perguntar, o wagner comentou na daily sobre uma questão sobre certificados, vc pode me explicar melhor?
+11:00
+se for questão de organização acho q eu consigo ajudar
+
+
+Michel Jhone Lacerda
+  11:01 AM
+Certificados dos bancos, pra registro de boleto bancário. Cada emissor usa um banco diferente, e precisa ter esses certificados válidos pra registrar suas cobranças nos bancos
+
+
+Giovanna Mafra
+  11:09 AM
+ah, entendi. Aí nesse caso precisa trazer os que estão válidos ou próximos da validade e atualizar, é isso?
+
+
+Michel Jhone Lacerda
+  11:10 AM
+Não
+11:10
+O emissor solicita e valida com o banco poder disponibilizar pra gente, dai a gente usa o atual válido
+11:11
+No momento ele fica dentro da aplicação. Por isso sempre q precisa atualizar, subimos uma nova versão
+11:12
+Agora a idéia é deixar ele num repositório de arquivos, e criar uma tela pra atualizar via aplicação. Em vez de subir versão do pier
+
+
+Giovanna Mafra
+  11:37 AM
+ata, acho que eu to entendendo
+11:37
+aí esse repositorio é tipo o s3, certo? (edited) 
+
+
+Michel Jhone Lacerda
+  11:38 AM
+isso
+
+
+Giovanna Mafra
+  11:48 AM
+entendi, eu fiz algo parecido na faculdade, a gente atualizava os arquivos do s3 via api
